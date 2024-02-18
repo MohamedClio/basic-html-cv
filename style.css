@@ -1,13 +1,17 @@
 #profile-picture {
   border-radius: 3rem;
+  margin-top: -150px;
 }
 .name {
-  text-align: center;
+  font-weight: 900;
+  margin: 0px 0px 0px 230px;
+  color: black;
 }
 .section {
   background-color: black;
   color: whitesmoke;
   font-size: 1.25rem;
+  font-weight: 500;
 }
 html {
   background-color: whitesmoke;
@@ -17,4 +21,10 @@ footer {
 }
 ul {
   font-size: medium;
+}
+a {
+  text-decoration: none;
+}
+#about-dev {
+  margin: 70px 0px 20px 0px;
 }
