@@ -1,14 +1,18 @@
 #profile-picture {
   border-radius: 3rem;
-  margin-top: -150px;
-  vertical-align: middle;
+  float: left;
+  border: 5px solid black;
+  margin: 10px;
+}
+#mohamed {
+  display: inline-block;
+  margin-top: 70px;
 }
 .name {
-  font-weight: 900;
-  margin: 0px 0px 0px 230px;
-  color: black;
+  margin: 0;
 }
 .section {
+  clear: left;
   background-color: black;
   color: whitesmoke;
   font-size: 1.25rem;
@@ -30,7 +34,4 @@ ul {
 }
 a {
   text-decoration: none;
-}
-#about-dev {
-  margin: 70px 0px 20px 0px;
 }
