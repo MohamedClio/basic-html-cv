@@ -1,20 +1,13 @@
-#profile-picture {
-  border-radius: 3rem;
-  float: left;
-  border: 5px solid black;
-  margin: 10px;
-}
-#mohamed {
-  display: inline-block;
-  margin-top: 70px;
-}
-.name {
-  margin: 0;
+body {
+  background-color: #222831;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  font-weight: 500;
+  color: #eeeeee;
 }
 .section {
   clear: left;
-  background-color: black;
-  color: whitesmoke;
+  background-color: #00adb5;
+  color: #393e46;
   font-size: 1.25rem;
   font-weight: 500;
   padding: 5px;
@@ -23,9 +16,32 @@
   font-family: "Times New Roman", Times, serif;
   border-radius: 1.5rem;
 }
-html {
-  background-color: whitesmoke;
+a {
+  color: #eeeeee;
 }
+
+a:active {
+  color: #00adb5;
+}
+#profile-picture {
+  border-radius: 3rem;
+  float: left;
+  border: 5px solid #eeeeee;
+  margin: 10px;
+  object-fit: cover;
+}
+#mohamed {
+  display: inline-block;
+  margin-top: 70px;
+}
+.name {
+  margin: 0;
+  font-family: "EB Garamond", serif !important;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
 footer {
   color: red;
 }
@@ -34,4 +50,15 @@ ul {
 }
 a {
   text-decoration: none;
+}
+@media (max-width: 600px) {
+  #about-dev {
+    display: block;
+    justify-items: center;
+  }
+  #profile-picture {
+    clear: left;
+    object-fit: cover;
+    width: 45%;
+  }
 }
